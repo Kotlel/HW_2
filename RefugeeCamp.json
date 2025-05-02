@@ -1,0 +1,119 @@
+{
+    {
+        "root": {
+            "camps": [
+                {
+                    "Id": 1,
+                    "Name": "Светлое Будущее",
+                    "Location": {
+                        "Country": "Италия",
+                        "City": "Фиорентина"
+                    },
+                    "Capacity": 450,
+                    "Facilities": [ "Питание", "Медицинская помощь", "Образование" ],
+                    "EstablishedYear": 2017
+                },
+                {
+                    "Id": 2,
+                    "Name": "Новый Дом",
+                    "Location": {
+                        "Country": "Франция",
+                        "City": "Кале"
+                    },
+                    "Capacity": 350,
+                    "Facilities": [ "Теплица", "Правовая поддержка", "Языковые курсы" ],
+                    "EstablishedYear": 2009
+                },
+                {
+                    "Id": 3,
+                    "Name": "Безопасная Гавань",
+                    "Location": {
+                        "Country": "Швеция",
+                        "City": "Стокгольм"
+                    },
+                    "Capacity": 800,
+                    "Facilities": [ "Жильё", "Психологическая помощь", "Досуг" ],
+                    "EstablishedYear": 2014
+                }
+            ],
+            "refugees": [
+                {
+                    "Id": 1,
+                    "Name": "Амир Хан",
+                    "Age": 28,
+                    "Nationality": "Пакистан",
+                    "Documents": {
+                        "DocumentType": "паспорт",
+                        "DocumentNumber": 654321
+                    },
+                    "HealthInfo": {
+                        "BloodGroup": 1,
+                        "ChronicDiseases": "диабет"
+                    }
+                },
+                {
+                    "Id": 2,
+                    "Name": "Зарина Назари",
+                    "Age": 37,
+                    "Nationality": "Афганистан",
+                    "Documents": {
+                        "DocumentType": "временное удостоверение",
+                        "DocumentNumber": 987654
+                    },
+                    "HealthInfo": {
+                        "BloodGroup": 3,
+                        "ChronicDiseases": "нет"
+                    }
+                },
+                {
+                    "Id": 3,
+                    "Name": "Юсуф Абдуллаев",
+                    "Age": 19,
+                    "Nationality": "Сомали",
+                    "Documents": {
+                        "DocumentType": "карта беженца",
+                        "DocumentNumber": 135790
+                    },
+                    "HealthInfo": {
+                        "BloodGroup": 4,
+                        "ChronicDiseases": "аллергия"
+                    }
+                }
+            ],
+            "staff": [
+                {
+                    "Id": 1,
+                    "Name": "Оксана Иванова",
+                    "Position": "координатор лагеря",
+                    "ExperienceYears": 6,
+                    "Skills": [ "Работа с документами", "Организация мероприятий" ],
+                    "PersonalInfo": {
+                        "BirthDate": "03.07.1989",
+                        "Citizenship": "Украина"
+                    }
+                },
+                {
+                    "Id": 2,
+                    "Name": "Карим Хадж",
+                    "Position": "медик",
+                    "ExperienceYears": 4,
+                    "Skills": [ "Первая помощь", "Санитария" ],
+                    "PersonalInfo": {
+                        "BirthDate": "15.04.1993",
+                        "Citizenship": "Тунис"
+                    }
+                },
+                {
+                    "Id": 3,
+                    "Name": "Линда Седергрен",
+                    "Position": "переводчик",
+                    "ExperienceYears": 2,
+                    "Skills": [ "Английский язык", "Арабский язык" ],
+                    "PersonalInfo": {
+                        "BirthDate": "22.12.1998",
+                        "Citizenship": "Швеция"
+                    }
+                }
+            ]
+        }
+    }

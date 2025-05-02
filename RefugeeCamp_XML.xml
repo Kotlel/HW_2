@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<camps>
+		<camp>
+			<Id>1</Id>
+			<Name>Светлое Будущее</Name>
+			<Location>
+				<Country>Италия</Country>
+				<City>Фиорентина</City>
+			</Location>
+			<Capacity>450</Capacity>
+			<Facilities>
+				<Facility>Питание</Facility>
+				<Facility>Медицинская помощь</Facility>
+				<Facility>Образование</Facility>
+			</Facilities>
+			<EstablishedYear>2017</EstablishedYear>
+		</camp>
+		<camp>
+			<Id>2</Id>
+			<Name>Новый Дом</Name>
+			<Location>
+				<Country>Франция</Country>
+				<City>Кале</City>
+			</Location>
+			<Capacity>350</Capacity>
+			<Facilities>
+				<Facility>Теплица</Facility>
+				<Facility>Правовая поддержка</Facility>
+				<Facility>Языковые курсы</Facility>
+			</Facilities>
+			<EstablishedYear>2009</EstablishedYear>
+		</camp>
+		<camp>
+			<Id>3</Id>
+			<Name>Безопасная Гавань</Name>
+			<Location>
+				<Country>Швеция</Country>
+				<City>Стокгольм</City>
+			</Location>
+			<Capacity>800</Capacity>
+			<Facilities>
+				<Facility>Жильё</Facility>
+				<Facility>Психологическая помощь</Facility>
+				<Facility>Досуг</Facility>
+			</Facilities>
+			<EstablishedYear>2014</EstablishedYear>
+		</camp>
+	</camps>
+
+	<refugees>
+		<refugee>
+			<Id>1</Id>
+			<Name>Амир Хан</Name>
+			<Age>28</Age>
+			<Nationality>Пакистан</Nationality>
+			<Documents>
+				<DocumentType>паспорт</DocumentType>
+				<DocumentNumber>654321</DocumentNumber>
+			</Documents>
+			<HealthInfo>
+				<BloodGroup>1</BloodGroup>
+				<ChronicDiseases>диабет</ChronicDiseases>
+			</HealthInfo>
+		</refugee>
+		<refugee>
+			<Id>2</Id>
+			<Name>Зарина Назари</Name>
+			<Age>37</Age>
+			<Nationality>Афганистан</Nationality>
+			<Documents>
+				<DocumentType>временное удостоверение</DocumentType>
+				<DocumentNumber>987654</DocumentNumber>
+			</Documents>
+			<HealthInfo>
+				<BloodGroup>3</BloodGroup>
+				<ChronicDiseases>нет</ChronicDiseases>
+			</HealthInfo>
+		</refugee>
+		<refugee>
+			<Id>3</Id>
+			<Name>Юсуф Абдуллаев</Name>
+			<Age>19</Age>
+			<Nationality>Сомали</Nationality>
+			<Documents>
+				<DocumentType>карта беженца</DocumentType>
+				<DocumentNumber>135790</DocumentNumber>
+			</Documents>
+			<HealthInfo>
+				<BloodGroup>4</BloodGroup>
+				<ChronicDiseases>аллергия</ChronicDiseases>
+			</HealthInfo>
+		</refugee>
+	</refugees>
+
+	<staff>
+		<employee>
+			<Id>1</Id>
+			<Name>Оксана Иванова</Name>
+			<Position>координатор лагеря</Position>
+			<ExperienceYears>6</ExperienceYears>
+			<Skills>
+				<Skill>Работа с документами</Skill>
+				<Skill>Организация мероприятий</Skill>
+			</Skills>
+			<PersonalInfo>
+				<BirthDate>03.07.1989</BirthDate>
+				<Citizenship>Украина</Citizenship>
+			</PersonalInfo>
+		</employee>
+		<employee>
+			<Id>2</Id>
+			<Name>Карим Хадж</Name>
+			<Position>медик</Position>
+			<ExperienceYears>4</ExperienceYears>
+			<Skills>
+				<Skill>Первая помощь</Skill>
+				<Skill>Санитария</Skill>
+			</Skills>
+			<PersonalInfo>
+				<BirthDate>15.04.1993</BirthDate>
+				<Citizenship>Тунис</Citizenship>
+			</PersonalInfo>
+		</employee>
+		<employee>
+			<Id>3</Id>
+			<Name>Линда Седергрен</Name>
+			<Position>переводчик</Position>
+			<ExperienceYears>2</ExperienceYears>
+			<Skills>
+				<Skill>Английский язык</Skill>
+				<Skill>Арабский язык</Skill>
+			</Skills>
+			<PersonalInfo>
+				<BirthDate>22.12.1998</BirthDate>
+				<Citizenship>Швеция</Citizenship>
+			</PersonalInfo>
+		</employee>
+	</staff>
+</root>
